@@ -5,13 +5,14 @@ description = ""
 authors = ["Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>"]
 readme = "README.md"
 repository = "https://github.com/APN-Pucky/pipx-ansible-pull"
+packages = [{include = "pipx_ansible_pull.py"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 ansible = "^8.7.0"
 
 [tool.poetry.scripts]
-pipx-ansible-pull = "ansible.cli.pull:main"
+pipx-ansible-pull = "pipx_ansible_pull:main"
 
 [build-system]
 requires = ["poetry-core"]
