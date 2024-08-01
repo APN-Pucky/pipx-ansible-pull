@@ -13,3 +13,7 @@ ansible = "^8.7.0"
 [project.scripts]
 ansible-pull = "ansible.cli.pull:main"
 
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
