@@ -10,8 +10,8 @@ repository = "https://github.com/APN-Pucky/pipx-ansible-pull"
 python = "^3.9"
 ansible = "^8.7.0"
 
-[project.scripts]
-pipx-ansible-pull = "ansible.cli.pull:main"
+#[project.scripts]
+#pipx-ansible-pull = "ansible.cli.pull:main"
 
 [build-system]
 requires = ["poetry-core"]
