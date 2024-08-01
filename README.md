@@ -2,10 +2,15 @@
 
 Virtualenvs for ansible-pull with pipx.
 
+## Why?
+
+- lock versions of ansible and its dependencies
+- checksummed packaged to be sure nothing changed
+
 
 ## Setup
 
-Add a pyproject.toml to your git repo that you want to use with ansible-pull.
+Add a `pyproject.toml` to your git repo that you want to use with ansible-pull.
 Versions can be adjusted as needed.
 We are using poetry here, but others should work as well.
 ```toml
