@@ -29,6 +29,7 @@ python = "^3.10"
 ansible = "^9.4.0"
 
 [tool.poetry.scripts]
+# convenience script replicating ansible-pull, in case of multiple installations
 pipx-ansible-pull = "ansible.cli.pull:main"
 
 [build-system]
