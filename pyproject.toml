@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "pipx-ansible-pull"
+version = "0.0.0"
+description = ""
+authors = ["Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>"]
+readme = "README.md"
+repository = "https://github.com/APN-Pucky/pipx-ansible-pull"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ansible = "^8.7.0"
