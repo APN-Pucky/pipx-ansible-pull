@@ -21,7 +21,8 @@ description = ""
 authors = ["Alexander Puck Neuwirth <alexander@neuwirth-informatik.de>"]
 readme = "README.md"
 repository = "https://github.com/APN-Pucky/pipx-ansible-pull"
-packages = [{include = "READEME.md"}]
+# decoy file, as empty project installations fail
+packages = [{include = "README.md"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
