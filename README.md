@@ -41,3 +41,8 @@ or use the `pipx-ansible-pull` script from this repo to mimic the `ansible-pull`
 ```
 pipx-ansible-pull -C master --inventory hosts --url https://github.com/APN-Pucky/pipx-ansible-pull.git site.yaml
 ```
+
+## FAQ
+
+- Why `--no-cache`?
+  - This is to ensure that the latest version is always used. This is important for development and testing. While it disables pipx caching (venv creation), it is not a problem for the pip cache (package fetching).
